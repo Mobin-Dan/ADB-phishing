@@ -2,7 +2,7 @@ import os
 import pyfiglet
 from colorama import Fore
 os.system("unzip insta_hack.zip")
-os.system("unzip telenumber.zip")
+os.system("unzip telegram.zip")
 os.system("clear")
 out = pyfiglet.figlet_format("ADB PHIS", font="3-d")
 print(Fore.WHITE+"*"*70)
