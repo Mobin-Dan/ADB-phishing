@@ -6,4 +6,4 @@
 <br>my toutube https://www.youtube.com/channel/UCrts8wi8GCzrMXDn9BldMTw<br>
 <br>my telegram https://t.me/termux_learning<br>
 
-On YouTube, I teach you how to hack people outside the network with this script 
+for btc edit barcode in Payment-page.html
