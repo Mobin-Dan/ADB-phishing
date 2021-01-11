@@ -24,6 +24,8 @@ print(Fore.RED+"""
 print(Fore.WHITE+"*"+Fore.GREEN+"[+]"+Fore.RED+"INSTAGRAM")
 print(Fore.WHITE+"*"+Fore.GREEN+"[+]"+Fore.RED+"telenumber")
 print(Fore.WHITE+"*"+Fore.GREEN+"[+]"+Fore.RED+"BTC")
+print(Fore.WHITE+"*"+Fore.GREEN+"[+]"+Fore.RED+"paypal")
+print(Fore.WHITE+"*"+Fore.GREEN+"[+]"+Fore.RED+"wordpress")
 print(Fore.WHITE+"*"*70)
 s =input(Fore.RED+"="+Fore.GREEN+"telenumber/instagram"+Fore.RED+">")
 if s == "instagram":
