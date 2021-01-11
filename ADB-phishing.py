@@ -2,6 +2,7 @@ import os
 import pyfiglet
 from colorama import Fore
 os.system("unzip insta_hack.zip")
+os.system("unzip wordpress.zip")
 os.system("unzip paypal.zip")
 os.system("unzip telegram.zip")
 os.system("unzip BTC.zip")
