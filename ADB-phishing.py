@@ -32,3 +32,7 @@ if s == "telenumber":
         os.system("python module1.py")
 if s == "BTC":
         os.system("python module3.py")
+if s == "paypal":
+        os.system("python module4.py")
+if s == "wordpress":
+        os.system("python module5.py")
