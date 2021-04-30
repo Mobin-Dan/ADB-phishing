@@ -1,0 +1,16 @@
+base58==1.0.0
+bitcoin==1.1.42
+certifi==2020.12.5
+chardet==3.0.4
+colorama==0.4.4
+ecdsa==0.13
+idna==2.7
+pyaes==1.6.1
+pyasn1==0.4.8
+pyfiglet==0.8.post1
+pyngrok==5.0.5
+PyYAML==5.4.1
+requests==2.19.1
+rsa==4.7.2
+Telethon==1.21.1
+urllib3==1.23
