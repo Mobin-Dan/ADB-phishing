@@ -29,7 +29,7 @@ print(Fore.WHITE+"*"+Fore.GREEN+"[4]"+Fore.RED+"paypal")
 print(Fore.WHITE+"*"+Fore.GREEN+"[5]"+Fore.RED+"wordpress")
 print(Fore.WHITE+"*"+Fore.GREEN+"[6]"+Fore.RED+"Adobe")
 print(Fore.WHITE+"*"*70)
-s =input(Fore.RED+"="+Fore.GREEN+"telenumber/instagram"+Fore.RED+">")
+s =int(input(Fore.RED+"~"+Fore.GREEN+"=>"))
 if s ==1:
         os.system("python module2.py")
 if s ==2:
