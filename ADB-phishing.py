@@ -19,8 +19,7 @@ print(Fore.RED+"""
 | | | | |/ /| |_/ /      | |_) | | | | \__ \ | | | | | | | (_| |
 \_| |_/___/ \____/       | .__/|_| |_|_|___/_| |_|_|_| |_|\__, |
                          | |                               __/ |
-                         |_|                              |___/ 
-                                                                
+                         |_|                              |___/                                                                 
 """)
 print(Fore.WHITE+"*"+Fore.GREEN+"[1]"+Fore.RED+"INSTAGRAM")
 print(Fore.WHITE+"*"+Fore.GREEN+"[2]"+Fore.RED+"telenumber")
